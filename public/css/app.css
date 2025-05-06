@@ -1,0 +1,100 @@
+/* Custom button margin */
+.btn {
+    margin-top: 10px;
+  }
+
+  /* Card shadow customization */
+  .card.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+  }
+
+  /* Form wrapper spacing */
+  .form-group label {
+    font-weight: 500;
+  }
+
+  /* Layout overrides */
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  footer.bg-light {
+    border-top: 1px solid #ddd;
+  }
+
+  /* Example container padding */
+  .container.my-5 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  /* Dashboard styling */
+  .text-center h2 {
+    color: #004466;
+  }
+
+  /* Overall container for events */
+.events-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Individual event card styling */
+.event-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-5px); /* Slight hover effect */
+}
+
+/* Card header with event name */
+.event-card-header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Card body with event details */
+.event-card-body {
+    padding: 15px;
+}
+
+.event-card-body p {
+    margin: 10px 0;
+}
+
+/* Card footer with book button */
+.event-card-footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+.book-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.book-button:hover {
+    background-color: #218838;
+}
+
