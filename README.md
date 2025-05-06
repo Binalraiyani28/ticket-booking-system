@@ -40,7 +40,7 @@ php artisan migrate --seed
 
 
 6. **Serve**
-php artisan 
+php artisan serve
 
 ## An exported SQL schema is available at:
 
